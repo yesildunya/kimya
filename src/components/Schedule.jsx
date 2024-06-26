@@ -9,99 +9,93 @@ import { Container } from '@/components/Container'
 
 const schedule = [
   {
-    date: 'April 4',
+    date: 'Proje Ekibi',
     dateTime: '2022-04-04',
     summary:
       'The first day of the conference is focused on dark patterns for ecommerce.',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
+        name: 'Sevil ERKUT',
+        description: 'Proje Yürütücüsü, ODTÜ Merkezi Laboratuvarı',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
+        name: 'Doc.Dr.Salih ÖZÇUBUKÇU',
+        description: 'Proje Uzmanı, ODTÜ Fen Fakültesi',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
+        name: 'Doç.Dr.Pervin Oya TANERİ',
+        description: 'Proje Uzmanı, ODTÜ Eğitim Fakültesi',
         start: '11:00AM',
         end: '12:00PM',
       },
       {
-        name: 'Lunch',
-        description: null,
+        name: 'Özlem GÖKTAS',
+        description: 'Proje Uzmani, Mersin il Milli Egitim Müd.',
         start: '12:00PM',
         end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+      }
     ],
   },
   {
-    date: 'April 5',
+    date: 'PROJE EGITMENLERI',
     dateTime: '2022-04-05',
     summary:
       'Next we spend the day talking about deceiving people with technology.',
     timeSlots: [
       {
-        name: 'Damaris Kimura',
+        name: 'Öğr.Gör. Dr. İ.Cihan AYANOGLU',
         description: 'The invisible card reader',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
-        name: 'Ibrahim Frasch',
+        name: 'Öğr Gör. Dr. Tugba DOGAN',
         description: 'Stealing fingerprints',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
-        name: 'Cathlene Burrage',
+        name: 'Öğr.Gor. Dr. Eda TUNAOZTÜRK',
         description: 'Voting machines',
         start: '11:00AM',
         end: '12:00PM',
       },
       {
-        name: 'Lunch',
-        description: null,
+        name: 'Dr. Fulya KARAHAN DAĞ',
+        description: '',
         start: '12:00PM',
         end: '1:00PM',
       },
       {
-        name: 'Rinaldo Beynon',
+        name: 'Aras.Gör. Ezgi BAYER KÖMÜŞDOĞAN',
         description: 'Blackhat SEO that works',
         start: '1:00PM',
         end: '2:00PM',
       },
       {
-        name: 'Waylon Hyden',
+        name: 'Özgür NORMAN',
         description: 'Turning your audience into a botnet',
         start: '2:00PM',
         end: '3:00PM',
       },
       {
-        name: 'Giordano Sagucio',
+        name: 'Mete ESENCAN',
+        description: 'Fly phishing',
+        start: '3:00PM',
+        end: '4:00PM',
+      },
+      {
+        name: 'Nazlıcan DEMIRKIRAN',
+        description: 'Turning your audience into a botnet',
+        start: '2:00PM',
+        end: '3:00PM',
+      },
+      {
+        name: 'Semiha Seda TERZI',
         description: 'Fly phishing',
         start: '3:00PM',
         end: '4:00PM',
@@ -109,53 +103,41 @@ const schedule = [
     ],
   },
   {
-    date: 'April 6',
+    date: 'PROJE REHBERLERI',
     dateTime: '2022-04-06',
     summary:
       'We close out the event previewing new techniques that are still in development.',
     timeSlots: [
       {
-        name: 'Andrew Greene',
+        name: 'Deniz ERKUT',
         description: 'Neuralink dark patterns',
         start: '9:00AM',
         end: '10:00AM',
       },
       {
-        name: 'Heather Terry',
+        name: 'Eda DURKAN',
         description: 'DALL-E for passports',
         start: '10:00AM',
         end: '11:00AM',
       },
       {
-        name: 'Piers Wilkins',
+        name: 'Tezcan SEYMENLER',
         description: 'Quantum password cracking',
         start: '11:00AM',
         end: '12:00PM',
       },
       {
-        name: 'Lunch',
-        description: null,
+        name: 'Omer DOGAN',
+        description: '',
         start: '12:00PM',
         end: '1:00PM',
       },
       {
-        name: 'Gordon Sanderson',
+        name: 'Abdussamed TURABİ',
         description: 'SkyNet is coming',
         start: '1:00PM',
         end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
+      }
     ],
   },
 ]
@@ -297,14 +279,8 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Ekiplerimiz
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
-          </p>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">

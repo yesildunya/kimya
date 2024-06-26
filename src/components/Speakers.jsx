@@ -28,116 +28,65 @@ import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
 const days = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    name: 'Pazartesi',
+    date: '2 Eylül',
+    dateTime: '2024-10-02',
     speakers: [
       {
         name: 'Steven McHail',
         role: 'Designer at Globex Corporation',
         image: stevenMchailImage,
-      },
-      {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
+      }
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    name: 'Salı',
+    date: '3 Eylül',
+    dateTime: '2024-10-03',
     speakers: [
       {
         name: 'Damaris Kimura',
         role: 'Senior Engineer at OCP',
         image: damarisKimuraImage,
-      },
-      {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
-      },
+      }
     ],
   },
   {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
+    name: 'Çarşamba',
+    date: '4 Eylül',
+    dateTime: '2024-10-04',
     speakers: [
       {
         name: 'Andrew Greene',
         role: 'Frontend Developer at Ultratech',
         image: andrewGreeneImage,
       },
+    ],
+  },
+  {
+    name: 'Perşembe',
+    date: '5 Eylül',
+    dateTime: '2024-10-05',
+    speakers: [
       {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
-      },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
+        name: 'Andrew Greene',
+        role: 'Frontend Developer at Ultratech',
+        image: andrewGreeneImage,
       },
     ],
   },
+  {
+    name: 'Cuma',
+    date: '6 Eylül',
+    dateTime: '2024-10-06',
+    speakers: [
+      {
+        name: 'Andrew Greene',
+        role: 'Frontend Developer at Ultratech',
+        image: andrewGreeneImage,
+      },
+    ],
+  }
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -190,11 +139,10 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Speakers
+            Program Akışı
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            Uzmanlarından öğrenin
           </p>
         </div>
         <TabGroup
@@ -251,38 +199,38 @@ export function Speakers() {
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
-                    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
-                      <div
-                        className={clsx(
-                          'absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
-                          [
-                            'border-blue-300',
-                            'border-indigo-300',
-                            'border-sky-300',
-                          ][speakerIndex % 3],
-                        )}
-                      />
-                      <div
-                        className="absolute inset-0 bg-indigo-50"
-                        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                      >
-                        <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-                          src={speaker.image}
-                          alt=""
-                          priority
-                          sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    <div key={speakerIndex}>
+                      <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
+                        <div
+                            className={clsx(
+                                'absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+                                [
+                                  'border-blue-300',
+                                  'border-indigo-300',
+                                  'border-sky-300',
+                                ][speakerIndex % 3],
+                            )}
                         />
+                        <div
+                            className="absolute inset-0 bg-indigo-50"
+                            style={{clipPath: `url(#${id}-${speakerIndex % 3})`}}
+                        >
+                          <Image
+                              className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                              src={speaker.image}
+                              alt=""
+                              priority
+                              sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                          />
+                        </div>
                       </div>
+                      <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                        {speaker.name}
+                      </h3>
+                      <p className="mt-1 text-base tracking-tight text-slate-500">
+                        {speaker.role}
+                      </p>
                     </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
-                      {speaker.name}
-                    </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}
-                    </p>
-                  </div>
                 ))}
               </TabPanel>
             ))}
