@@ -7,9 +7,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
-import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
+import pazartesi from '@/images/avatars/pazartesi.jpg'
 
 const days = [
   {
@@ -18,9 +16,9 @@ const days = [
     dateTime: '2024-10-02',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
+        name: 'Pazartesi',
+        role: '',
+        image: pazartesi,
       }
     ],
   },
@@ -30,9 +28,9 @@ const days = [
     dateTime: '2024-10-03',
     speakers: [
       {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
+        name: 'Salı',
+        role: '',
+        image: pazartesi,
       }
     ],
   },
@@ -42,9 +40,9 @@ const days = [
     dateTime: '2024-10-04',
     speakers: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
+        name: 'Çarşamba',
+        role: '',
+        image: pazartesi,
       },
     ],
   },
@@ -54,9 +52,9 @@ const days = [
     dateTime: '2024-10-05',
     speakers: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
+        name: 'Perşembe',
+        role: '',
+        image: pazartesi,
       },
     ],
   },
@@ -66,9 +64,9 @@ const days = [
     dateTime: '2024-10-06',
     speakers: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
+        name: 'Cuma',
+        role: '',
+        image: pazartesi,
       },
     ],
   }
