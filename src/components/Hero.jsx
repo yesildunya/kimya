@@ -14,55 +14,55 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              Projenin Amacı:
+              &nbsp;&nbsp;&nbsp;&nbsp;Projenin Amacı:
             </p>
             <p>
-              Proje ile; yeşil kimya felsefesinin günlük yaşam tercihlerinde kullanılabilirliği, atık yönetimi, sürdürülebilir yaşam uygulamaları konularını destekleyen deneysel ve gözlemsel uygulamalar, AR uygulaması, dijital içerik kullanımı, saha çalışması, oyun, tasarım, drama gibi farklı yöntemleri barındıran etkinlikler ile kapsamlı bir farkındalık kazandırılması ve bu kazanımlarını gelecek nesillere aktarabilecek bilinçli ve sorumlu nesiller yetiştirilmesi hedeflenmektedir. Proje sonunda belirlenen hedefler doğrultusunda öğrencilerden beklenen temel kazanımlar şöyle sıralanabilir.
+              &nbsp;&nbsp;&nbsp;&nbsp;Proje ile; yeşil kimya felsefesinin günlük yaşam tercihlerinde kullanılabilirliği, atık yönetimi, sürdürülebilir yaşam uygulamaları konularını destekleyen deneysel ve gözlemsel uygulamalar, AR uygulaması, dijital içerik kullanımı, saha çalışması, oyun, tasarım, drama gibi farklı yöntemleri barındıran etkinlikler ile kapsamlı bir farkındalık kazandırılması ve bu kazanımlarını gelecek nesillere aktarabilecek bilinçli ve sorumlu nesiller yetiştirilmesi hedeflenmektedir. Proje sonunda belirlenen hedefler doğrultusunda öğrencilerden beklenen temel kazanımlar şöyle sıralanabilir.
             </p>
             <p>
-            Kişisel davranış seçimlerini analiz eder ve bunların çevre üzerindeki potansiyel etkilerini belirler.
+              &nbsp;&nbsp;&nbsp;&nbsp;Kişisel davranış seçimlerini analiz eder ve bunların çevre üzerindeki potansiyel etkilerini belirler.
             </p>
             <p>
-            Günlük yaşam seçimlerinde çevre dostu alternatifleri seçer ve benimser.
+              &nbsp;&nbsp;&nbsp;&nbsp;Günlük yaşam seçimlerinde çevre dostu alternatifleri seçer ve benimser.
             </p>
             <p>
-            Çevreyi ve insan sağlığını korumak amacıyla zararlı kimyasalların önlenmesi, azaltılması veya alternatiflerinin bulunmasına yönelik stratejileri belirlemek ve uygulamak için yeşil kimya ilkelerini uygular.
+              &nbsp;&nbsp;&nbsp;&nbsp;Çevreyi ve insan sağlığını korumak amacıyla zararlı kimyasalların önlenmesi, azaltılması veya alternatiflerinin bulunmasına yönelik stratejileri belirlemek ve uygulamak için yeşil kimya ilkelerini uygular.
             </p>
             <p>
-            Çevre sorunlarını değerlendirir ve mümkün olduğunca çevre dostu davranışlarda bulunur.
+              &nbsp;&nbsp;&nbsp;&nbsp;Çevre sorunlarını değerlendirir ve mümkün olduğunca çevre dostu davranışlarda bulunur.
             </p>
             <p>
-            Çevre okuryazarlığı ile ilgili bilgi ve becerilerini etkin bir şekilde geliştirir
+              &nbsp;&nbsp;&nbsp;&nbsp;Çevre okuryazarlığı ile ilgili bilgi ve becerilerini etkin bir şekilde geliştirir
             </p>
             <p>
-            Çevresel sorumluluğa katılır ve toplumlarında etkili bir değişim ajanı olarak hareket eder.
+              &nbsp;&nbsp;&nbsp;&nbsp;Çevresel sorumluluğa katılır ve toplumlarında etkili bir değişim ajanı olarak hareket eder.
             </p>
             <p>
-            Atık yönetimi, geri dönüşüm, ileri dönüşüm ve sıfır atığı tanımlar.
+              &nbsp;&nbsp;&nbsp;&nbsp;Atık yönetimi, geri dönüşüm, ileri dönüşüm ve sıfır atığı tanımlar.
             </p>
             <p>
-            Sürdürülebilir ürünler seçmek, atıkları azaltmak ve çevre dostu yaşam tarzı seçimleri yapmak gibi çevresel etkileri göz önünde bulundurarak bilinçli kararlar alırlar.
+              &nbsp;&nbsp;&nbsp;&nbsp;Sürdürülebilir ürünler seçmek, atıkları azaltmak ve çevre dostu yaşam tarzı seçimleri yapmak gibi çevresel etkileri göz önünde bulundurarak bilinçli kararlar alırlar.
             </p>
             <p>
-            Sürdürülebilir yaşam uygulamaları konusunda farkındalık gösterir.
+              &nbsp;&nbsp;&nbsp;&nbsp;Sürdürülebilir yaşam uygulamaları konusunda farkındalık gösterir.
             </p>
             <p>
-            Doğal kaynakların sürdürülebilir kullanımına aktif olarak katkıda bulunur.
+              &nbsp;&nbsp;&nbsp;&nbsp;Doğal kaynakların sürdürülebilir kullanımına aktif olarak katkıda bulunur.
             </p>
             <p>
-            Doğal dünyayı korurken ve yönetirken bilimsel bilginin faydalarından yararlanmanın yollarını seçer.
+              &nbsp;&nbsp;&nbsp;&nbsp;Doğal dünyayı korurken ve yönetirken bilimsel bilginin faydalarından yararlanmanın yollarını seçer.
             </p>
             <p>
-            Bilimsel bilgi ve yaşam becerilerini bir arada kullanarak günlük sorunlara bilimsel çözümler üretir.
+              &nbsp;&nbsp;&nbsp;&nbsp;Bilimsel bilgi ve yaşam becerilerini bir arada kullanarak günlük sorunlara bilimsel çözümler üretir.
             </p>
             <p>
-            Benzer zorlukları nasıl çözdüklerini anlamak için organizmaları ve ekosistemleri gözlemleyerek ve inceleyerek doğal dünyayı sürekli sorgular
+              &nbsp;&nbsp;&nbsp;&nbsp;Benzer zorlukları nasıl çözdüklerini anlamak için organizmaları ve ekosistemleri gözlemleyerek ve inceleyerek doğal dünyayı sürekli sorgular
             </p>
             <p>
-            Doğanın stratejilerini taklit ederek çevre dostu ve sosyal açıdan sorumlu çözümler geliştirmek için çaba gösterir.
+              &nbsp;&nbsp;&nbsp;&nbsp;Doğanın stratejilerini taklit ederek çevre dostu ve sosyal açıdan sorumlu çözümler geliştirmek için çaba gösterir.
             </p>
             <p>
-            Doğanın tasarımının bilgeliğine ve verimliliğine saygı duyar.
+              &nbsp;&nbsp;&nbsp;&nbsp;Doğanın tasarımının bilgeliğine ve verimliliğine saygı duyar.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
@@ -70,7 +70,7 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Katılımcı', '30'],
+              ['Katılımcı', '25'],
               ['Yer', 'ODTÜ, Ankara'],
             ].map(([name, value]) => (
               <div key={name}>

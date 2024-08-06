@@ -9,134 +9,134 @@ import { Container } from '@/components/Container'
 
 const schedule = [
   {
-    date: 'Proje Ekibi',
+    date: 'PROJE YÜRÜTÜCÜSÜ ve UZMANLAR',
     dateTime: '2022-04-04',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      '',
     timeSlots: [
       {
         name: 'Sevil ERKUT',
-        description: 'Proje Yürütücüsü, ODTÜ Merkezi Laboratuvarı',
-        start: '9:00AM',
-        end: '10:00AM',
+        description: 'Proje Yürütücüsü, ODTÜ',
+        start: '',
+        end: '',
       },
       {
-        name: 'Doc.Dr.Salih ÖZÇUBUKÇU',
-        description: 'Proje Uzmanı, ODTÜ Fen Fakültesi',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Doç.Dr.Salih ÖZÇUBUKÇU',
+        description: 'Proje Uzmanı, ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Doç.Dr.Pervin Oya TANERİ',
-        description: 'Proje Uzmanı, ODTÜ Eğitim Fakültesi',
-        start: '11:00AM',
-        end: '12:00PM',
+        description: 'Proje Uzmanı, ODTÜ',
+        start: '',
+        end: '',
       },
       {
-        name: 'Özlem GÖKTAS',
-        description: 'Proje Uzmani, Mersin il Milli Egitim Müd.',
-        start: '12:00PM',
-        end: '1:00PM',
+        name: 'Özlem GÖKTAŞ',
+        description: 'Proje Uzmanı',
+        start: '',
+        end: '',
       }
     ],
   },
   {
-    date: 'PROJE EGITMENLERI',
+    date: 'PROJE EĞİTMENLERİ',
     dateTime: '2022-04-05',
     summary:
-      'Next we spend the day talking about deceiving people with technology.',
+      '',
     timeSlots: [
       {
-        name: 'Öğr.Gör. Dr. İ.Cihan AYANOGLU',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Öğr.Gör. Dr. İ.Cihan AYANOĞLU',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
-        name: 'Öğr Gör. Dr. Tugba DOGAN',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Öğr Gör. Dr. Tuğba DOĞAN',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
-        name: 'Öğr.Gor. Dr. Eda TUNAOZTÜRK',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
+        name: 'Öğr.Gor. Dr. Eda TUNA ÖZTÜRK',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Dr. Fulya KARAHAN DAĞ',
-        description: '',
-        start: '12:00PM',
-        end: '1:00PM',
+        description: 'ODTÜ Teknokent',
+        start: '',
+        end: '',
       },
       {
-        name: 'Aras.Gör. Ezgi BAYER KÖMÜŞDOĞAN',
-        description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
+        name: 'Araş.Gör. Ezgi BAYER KÖMÜŞDOĞAN',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Özgür NORMAN',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Mete ESENCAN',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Nazlıcan DEMIRKIRAN',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
+        description: 'Öğretmen',
+        start: '',
+        end: '',
       },
       {
-        name: 'Semiha Seda TERZI',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
+        name: 'Semiha Seda TERZİ',
+        description: 'Öğretmen',
+        start: '',
+        end: '',
       },
     ],
   },
   {
-    date: 'PROJE REHBERLERI',
+    date: 'PROJE REHBERLERİ',
     dateTime: '2022-04-06',
     summary:
-      'We close out the event previewing new techniques that are still in development.',
+      '',
     timeSlots: [
       {
-        name: 'Deniz ERKUT',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
         name: 'Eda DURKAN',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
         name: 'Tezcan SEYMENLER',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
+        description: 'ODTÜ',
+        start: '',
+        end: '',
       },
       {
-        name: 'Omer DOGAN',
-        description: '',
-        start: '12:00PM',
-        end: '1:00PM',
+        name: 'Deniz ERKUT',
+        description: 'ODTÜ Öğrencisi',
+        start: '',
+        end: '',
+      },
+      {
+        name: 'Melisa ŞALK',
+        description: 'ODTÜ Öğrencisi',
+        start: '',
+        end: '',
       },
       {
         name: 'Abdussamed TURABİ',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
+        description: 'ODTÜ Öğrencisi',
+        start: '',
+        end: '',
       }
     ],
   },
@@ -231,7 +231,7 @@ function TimeSlots({ day, className }) {
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
           key={timeSlot.start}
-          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
+          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end}`}
         >
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
@@ -252,7 +252,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            
           </p>
         </li>
       ))}
