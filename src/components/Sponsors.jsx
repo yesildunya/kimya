@@ -15,22 +15,17 @@ const sponsors = [
 
 export function Sponsors() {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id="sponsors" aria-label="Sponsors" className="5 sm:py-2">
       <Container>
-        <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
-
-        </h2>
-        <div
-            className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          {sponsors.map((sponsor) => (
-              <div
-                  key={sponsor.name}
-                  className="flex items-center justify-center"
-              >
-                <span></span>
-              </div>
-          ))}
-        </div>
+          <div className="font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl"
+               style={{color: 'darkblue', textAlign: 'center'}}><a
+              href="https://haber.metu.edu.tr/tr/2024/08/odtu-yesil-kimya-yesil-dunya-projesi-ile-cevre-bilinci-kazandiracak/"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            Proje Odtü Haber Linki
+          </a>
+          </div>
       </Container>
     </section>
   )

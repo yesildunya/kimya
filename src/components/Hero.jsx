@@ -24,10 +24,10 @@ export function Hero() {
 
         <Container className="relative">
           <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-            <div> </div>
-            <div> </div>
-            <div> </div>
-            <div> </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             <h1 className="font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl"
                 style={{color: 'green', textAlign: 'center'}}>
               Yeşil Kimya : Yeşil Dünya
