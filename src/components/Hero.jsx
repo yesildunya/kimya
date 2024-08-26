@@ -28,10 +28,8 @@ export function Hero() {
             <div> </div>
             <div> </div>
             <div> </div>
-            <div> </div>
-            <hr></hr>
-            <h1 className="font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
-              <span className="sr-only">DeceptiConf - </span>
+            <h1 className="font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl"
+                style={{color: 'green', textAlign: 'center'}}>
               Yeşil Kimya : Yeşil Dünya
             </h1>
             <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
