@@ -7,7 +7,9 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import pazartesi from '@/images/avatars/pazartesi.jpg'
+import pazartesi from '@/images/avatars/pazartesi.png'
+import ekip2 from '@/images/avatars/ekip2.png'
+import poster from '@/images/avatars/poster.png'
 
 const days = [
   {
@@ -30,7 +32,7 @@ const days = [
       {
         name: 'Salı',
         role: '',
-        image: pazartesi,
+        image: poster,
       }
     ],
   },
@@ -42,7 +44,7 @@ const days = [
       {
         name: 'Çarşamba',
         role: '',
-        image: pazartesi,
+        image: ekip2,
       },
     ],
   },
@@ -54,7 +56,7 @@ const days = [
       {
         name: 'Perşembe',
         role: '',
-        image: pazartesi,
+        image: ekip2,
       },
     ],
   },
@@ -66,7 +68,7 @@ const days = [
       {
         name: 'Cuma',
         role: '',
-        image: pazartesi,
+        image: ekip2,
       },
     ],
   }
@@ -178,12 +180,11 @@ export function Speakers() {
             {days.map((day) => (
               <TabPanel
                 key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 ui-not-focus-visible:outline-none sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3"
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
                     <div key={speakerIndex}>
-                      <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
+                      <div className="group relative h-[80rem] transform overflow-hidden rounded-6xl">
                         <div
                             className={clsx(
                                 'absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
@@ -195,15 +196,13 @@ export function Speakers() {
                             )}
                         />
                         <div
-                            className="absolute inset-0 bg-indigo-50"
-                            style={{clipPath: `url(#${id}-${speakerIndex % 3})`}}
+
                         >
                           <Image
-                              className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
                               src={speaker.image}
                               alt=""
                               priority
-                              sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+
                           />
                         </div>
                       </div>
