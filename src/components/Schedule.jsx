@@ -284,10 +284,10 @@ export function Schedule() {
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
-        <BackgroundImage position="right" className="-bottom-32 -top-40" />
+        <BackgroundImage position="right" className="-bottom-32 -top-40"/>
         <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
+          <ScheduleTabbed/>
+          <ScheduleStatic/>
         </Container>
       </div>
     </section>

@@ -22,6 +22,7 @@ export function Header() {
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <Button href="https://docs.google.com/forms/d/e/1FAIpQLSeGoH49Ss1DSMDFnQlUWPHcuRwVB30kVeYPwe9zTVjC17P0PQ/viewform?fbclid=PAZXh0bgNhZW0CMTEAAabfYPJBSD2hQLssbXT6XfvvcbdM2em1XWPXG0wbQ4SSI39TA-w_NJZYZlc_aem_PjqGFJet-8cl8Qla5AnMxw">Başvuru Formu</Button>
+          <Button href="https://www.google.com/maps/place/Middle+East+Technical+University,+Department+of+Biology/@39.8959877,32.7775269,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x14d3463c756c8b9d:0xb2b867574bc6fece!2sMiddle+East+Technical+University,+Department+of+Biology!8m2!3d39.8959877!4d32.7801018!16s%2Fg%2F11b7h48n6x!3m5!1s0x14d3463c756c8b9d:0xb2b867574bc6fece!8m2!3d39.8959877!4d32.7801018!16s%2Fg%2F11b7h48n6x?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Maps-Adres</Button>
         </div>
       </Container>
     </header>
