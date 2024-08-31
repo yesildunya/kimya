@@ -17,14 +17,8 @@ export function Sponsors() {
   return (
     <section id="sponsors" aria-label="Sponsors" className="5 sm:py-2">
       <Container>
-          <div className="font-display text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl"
-               style={{color: 'darkblue', textAlign: 'center'}}><a
-              href="https://haber.metu.edu.tr/tr/2024/08/odtu-yesil-kimya-yesil-dunya-projesi-ile-cevre-bilinci-kazandiracak/"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Proje Odtü Haber Linki
-          </a>
+          <div>
+
           </div>
       </Container>
     </section>
